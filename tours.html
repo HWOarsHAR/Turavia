@@ -1,0 +1,575 @@
+<!doctype html>
+
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Каталог туров Turavia: море, Европа и приключения.">
+
+    <title>Туры — Turavia</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+    <header class="header">
+
+        <div class="container header__inner">
+
+            <a class="logo" href="index.html" aria-label="Turavia — на главную">
+
+                <span class="logo__mark" aria-hidden="true">✦</span><span>Turavia</span>
+
+            </a>
+
+            <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false"
+                aria-controls="main-nav">
+
+                <span class="burger__line"></span>
+
+                <span class="burger__line"></span>
+
+                <span class="burger__line"></span>
+
+            </button>
+
+            <nav class="nav" id="main-nav" aria-label="Основная навигация">
+
+                <ul class="nav__list">
+
+                    <li><a class="nav__link" href="index.html">Главная</a></li>
+
+                    <li><a class="nav__link nav__link_active" href="tours.html">Туры</a></li>
+
+                    <li><a class="nav__link" href="about.html">О компании</a></li>
+
+                    <li><a class="nav__link" href="contacts.html">Контакты</a></li>
+
+                </ul>
+
+            </nav>
+
+            <button class="button button_theme_primary header__account" type="button" data-modal="account">
+
+                Личный кабинет <span aria-hidden="true">→</span>
+
+            </button>
+
+        </div>
+
+    </header>
+
+    <main id="main">
+
+        <section class="page-hero section">
+
+            <div class="container">
+
+                <p class="eyebrow">Каталог путешествий</p>
+
+                <h1>Найдите маршрут,<br><span>который вам подходит</span></h1>
+
+                <p>27 тщательно отобранных вариантов в трёх направлениях. Цены указаны за человека и включают основные
+                    услуги.</p>
+
+            </div>
+
+        </section>
+
+        <section class="section" id="beach">
+
+            <div class="container">
+
+                <div class="section-head">
+
+                    <div>
+
+                        <p class="eyebrow">01 · Море и пляжи</p>
+
+                        <h2>Когда хочется просто выдохнуть</h2>
+
+                    </div>
+
+                    <p>Тёплые направления, красивые отели и максимум времени для себя.</p>
+
+                </div>
+
+                <div class="tour-grid">
+
+                    <article class="tour-card">
+
+                        <img class="tour-card__image"
+                            src="https://avatars.mds.yandex.net/get-altay/15394162/2a0000019a449e810e073e53c51bee74e1e3/XXXL"
+                            alt="Пляж Анталии" loading="lazy">
+
+                        <div class="tour-card__body">
+
+                            <div class="tour-card__meta"><span>Турция</span><b>от 89 900 ₽</b></div>
+
+                            <h3>Анталья · 8 ночей</h3>
+
+                            <p>Песчаный пляж, all inclusive и спокойный семейный ритм.</p>
+
+                            <a href="contacts.html" class="button button_size_s">Подобрать похожий</a>
+
+                        </div>
+
+                    </article>
+
+                    <article class="tour-card">
+
+                        <img class="tour-card__image"
+                            src="https://www.coronatours.ru/media/upload/feed/photos/2023/7/28/7f0c75f7-c471-4060-b11c-43d112be3e65.jpg"
+                            alt="Вилла на воде на Мальдивах" loading="lazy">
+
+                        <div class="tour-card__body">
+
+                            <div class="tour-card__meta"><span>Мальдивы</span><b>от 169 900 ₽</b></div>
+
+                            <h3>Мале · 7 ночей</h3>
+
+                            <p>Вилла на воде, снорклинг и островная жизнь без спешки.</p>
+
+                            <a href="contacts.html" class="button button_size_s">Подобрать похожий</a>
+
+                        </div>
+
+                    </article>
+
+                    <article class="tour-card">
+
+                        <img class="tour-card__image"
+                            src="https://avatars.mds.yandex.net/get-altay/14079384/2a0000019159ea8954217f6f31e175da1533/orig"
+                            alt="Побережье Крита" loading="lazy">
+
+                        <div class="tour-card__body">
+
+                            <div class="tour-card__meta"><span>Греция</span><b>от 112 900 ₽</b></div>
+
+                            <h3>Крит · 10 ночей</h3>
+
+                            <p>Бухты, таверны и маленькие деревни у Эгейского моря.</p>
+
+                            <a href="contacts.html" class="button button_size_s">Подобрать похожий</a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section section_soft" id="europe">
+
+            <div class="container">
+
+                <div class="section-head">
+
+                    <div>
+
+                        <p class="eyebrow">02 · Европа</p>
+
+                        <h2>Города с характером</h2>
+
+                    </div>
+
+                    <p>Для тех, кто любит гулять без карты, пробовать новое и замечать детали.</p>
+
+                </div>
+
+                <div class="tour-grid">
+
+                    <article class="tour-card">
+
+                        <img class="tour-card__image"
+                            src="https://resize.tripster.ru/GgSNxomGD2FYrIMnQK_-knD9UzY=/fit-in/1080x810/filters:no_upscale()/https://cdn.tripster.ru/photos/ad6a2603-0503-46e9-a172-2a1aee2e3a88.jpg"
+                            alt="Улицы Лиссабона" loading="lazy">
+
+                        <div class="tour-card__body">
+
+                            <div class="tour-card__meta"><span>Португалия</span><b>от 104 900 ₽</b></div>
+
+                            <h3>Лиссабон · 6 ночей</h3>
+
+                            <p>Океан, трамваи, смотровые площадки и лучший кофе.</p>
+
+                            <a href="contacts.html" class="button button_size_s">Подобрать похожий</a>
+
+                        </div>
+
+                    </article>
+
+                    <article class="tour-card">
+
+                        <img class="tour-card__image"
+                            src="https://avatars.mds.yandex.net/i?id=84adb24a2492bdc280be89cd110c4eef_l-4507734-images-thumbs&n=13"
+                            alt="Париж, вид на Эйфелеву башню" loading="lazy">
+
+                        <div class="tour-card__body">
+
+                            <div class="tour-card__meta"><span>Франция</span><b>от 119 900 ₽</b></div>
+
+                            <h3>Париж · 5 ночей</h3>
+
+                            <p>Музеи, локальные кафе и прогулки по левому берегу.</p>
+
+                            <a href="contacts.html" class="button button_size_s">Подобрать похожий</a>
+
+                        </div>
+
+                    </article>
+
+                    <article class="tour-card">
+
+                        <img class="tour-card__image"
+                            src="https://inspiring-crystal-aad8fec1ad.media.strapiapp.com/vineyard_with_agriculture_nature_grape_farm_rural_scene_landscape_wine_winery_winemaking_generated_by_artificial_intelligence_bf1ab316c9.jpg"
+                            alt="Виноградники Тосканы" loading="lazy">
+
+                        <div class="tour-card__body">
+
+                            <div class="tour-card__meta"><span>Италия</span><b>от 129 900 ₽</b></div>
+
+                            <h3>Тоскана · 8 ночей</h3>
+
+                            <p>Виноградники, старинные города и гастрономические открытия.</p>
+
+                            <a href="contacts.html" class="button button_size_s">Подобрать похожий</a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section" id="adventure">
+
+            <div class="container">
+
+                <div class="section-head">
+
+                    <div>
+
+                        <p class="eyebrow">03 · Приключения</p>
+
+                        <h2>Маршруты для любопытных</h2>
+
+                    </div>
+
+                    <p>Горы, север, сафари и места, где природа говорит громче города.</p>
+
+                </div>
+
+                <div class="tour-grid">
+
+                    <article class="tour-card">
+
+                        <img class="tour-card__image"
+                            src="https://storage.yandexcloud.net/storage.yasno.media/nat-geo/images/2020/5/20/ad9141e0490e4b37aada788e79d3d73a.max-2500x1500.jpg"
+                            alt="Водопад в Исландии" loading="lazy">
+
+                        <div class="tour-card__body">
+
+                            <div class="tour-card__meta"><span>Исландия</span><b>от 184 900 ₽</b></div>
+
+                            <h3>Кольцо острова · 9 ночей</h3>
+
+                            <p>Водопады, чёрные пляжи, ледники и горячие источники.</p>
+
+                            <a href="contacts.html" class="button button_size_s">Подобрать похожий</a>
+
+                        </div>
+
+                    </article>
+
+                    <article class="tour-card">
+
+                        <img class="tour-card__image"
+                            src="https://irecommend.ru/sites/default/files/product-images/138336/5Ti1zX8pdUG7zBl0ekeNgA.jpg"
+                            alt="Сафари в Кении" loading="lazy">
+
+                        <div class="tour-card__body">
+
+                            <div class="tour-card__meta"><span>Кения</span><b>от 219 900 ₽</b></div>
+
+                            <h3>Масаи-Мара · 8 ночей</h3>
+
+                            <p>Сафари на рассвете, саванна и уютные лоджи.</p>
+
+                            <a href="contacts.html" class="button button_size_s">Подобрать похожий</a>
+
+                        </div>
+
+                    </article>
+
+                    <article class="tour-card">
+
+                        <img class="tour-card__image"
+                            src="https://travelask.ru/system/images/files/001/306/098/wysiwyg_jpg/5.jpg?1556005815"
+                            alt="Альпийские горы" loading="lazy">
+
+                        <div class="tour-card__body">
+
+                            <div class="tour-card__meta"><span>Швейцария</span><b>от 154 900 ₽</b></div>
+
+                            <h3>Альпы · 7 ночей</h3>
+
+                            <p>Пешие маршруты, озёра и маленькие деревни в горах.</p>
+
+                            <a href="contacts.html" class="button button_size_s">Подобрать похожий</a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section section_soft">
+
+            <div class="container">
+
+                <div class="section-head section-head_center">
+
+                    <p class="eyebrow">Сравните варианты</p>
+
+                    <h2>Что входит в путешествие</h2>
+
+                </div>
+
+                <div class="table-wrap">
+
+                    <table>
+
+                        <caption class="visually-hidden">Сравнение туров</caption>
+
+                        <thead>
+
+                            <tr>
+
+                                <th scope="col">Пакет</th>
+
+                                <th scope="col">Проживание</th>
+
+                                <th scope="col">Трансфер</th>
+
+                                <th scope="col">Поддержка 24/7</th>
+
+                                <th scope="col">От</th>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <th scope="row">Comfort</th>
+                                <td>4★</td>
+                                <td>✓</td>
+                                <td>✓</td>
+                                <td>89 900 ₽</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Premium</th>
+                                <td>5★</td>
+                                <td>✓</td>
+                                <td>✓</td>
+                                <td>129 900 ₽</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Private</th>
+                                <td>5★+</td>
+                                <td>Индивидуальный</td>
+                                <td>Персональный менеджер</td>
+                                <td>от 199 900 ₽</td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="container footer__grid">
+
+            <div>
+
+                <a class="logo logo_footer" href="index.html">
+
+                    <span class="logo__mark" aria-hidden="true">✦</span><span>Turavia</span>
+
+                </a>
+
+                <p>Путешествия, которые остаются с вами.</p>
+
+            </div>
+
+            <div>
+
+                <h3>Навигация</h3>
+
+                <a href="index.html">Главная</a>
+
+                <a href="tours.html">Туры</a>
+
+                <a href="about.html">О компании</a>
+
+                <a href="contacts.html">Контакты</a>
+
+            </div>
+
+            <div>
+
+                <h3>Связаться</h3>
+
+                <a href="tel:+74951234567">+7 (495) 123-45-67</a>
+
+                <a href="mailto:hello@turavia.ru">hello@turavia.ru</a>
+
+                <span>Москва, ул. Путешествий, 7</span>
+
+            </div>
+
+            <div>
+                <h3>Документы</h3>
+                <a href="privacy.html"> Политика конфиденциальности</a>
+                <a href="consent.html">Согласие на обработку ПД</a>
+            </div>
+
+        </div>
+
+        <div class="container footer__bottom">
+            <span>© 2026 Turavia. Все права защищены.</span>
+            <a href="privacy.html">Политика конфиденциальности</a>
+        </div>
+
+    </footer>
+
+    <div class="modal" id="account-modal" aria-hidden="true" role="dialog" aria-modal="true"
+        aria-labelledby="account-title">
+
+        <div class="modal__backdrop" data-close-modal></div>
+
+        <div class="modal__panel">
+
+            <button class="modal__close" type="button" aria-label="Закрыть" data-close-modal>×</button>
+
+            <p class="eyebrow">Turavia</p>
+
+            <h2 id="account-title">Личный кабинет</h2>
+
+            <div class="tabs" role="tablist">
+
+                <button class="tabs__button tabs__button_active" type="button" role="tab" aria-selected="true"
+                    data-tab="login">Войти</button>
+
+                <button class="tabs__button" type="button" role="tab" aria-selected="false"
+                    data-tab="register">Регистрация</button>
+
+            </div>
+
+            <form class="form account-form" id="login-form" data-panel="login" action="/login" method="post">
+
+                <label class="form__label form__label_required" for="login-email">Email</label>
+
+                <input id="login-email" type="email" name="email" autocomplete="username" required>
+
+                <label class="form__label form__label_required" for="login-password">Пароль</label>
+
+                <input id="login-password" type="password" name="password" autocomplete="current-password" required
+                    minlength="8">
+
+                <label class="checkbox"><input type="checkbox" name="remember"><span>Запомнить меня</span></label>
+
+                <button class="button button_theme_primary button_wide" type="submit">Войти</button>
+
+            </form>
+
+            <form class="form account-form is-hidden" id="register-form" data-panel="register" action="/register"
+                method="post">
+
+                <label class="form__label form__label_required" for="reg-name">Имя пользователя</label>
+
+                <input id="reg-name" type="text" name="username" minlength="3" required autocomplete="name">
+
+                <label class="form__label form__label_required" for="reg-email">Email</label>
+
+                <input id="reg-email" type="email" name="email" autocomplete="email" required>
+
+                <label class="form__label form__label_required" for="reg-password">Пароль</label>
+
+                <input id="reg-password" type="password" name="password" minlength="8" autocomplete="new-password"
+                    required>
+
+                <label class="form__label form__label_required" for="reg-confirm">Подтверждение пароля</label>
+
+                <input id="reg-confirm" type="password" name="password_confirm" minlength="8"
+                    autocomplete="new-password" required>
+
+                <label class="checkbox">
+                    <input type="checkbox" name="privacy" required>
+                    <span class="checkbox__text">
+                        Я даю согласие на обработку моих персональных данных
+                        ООО «Turavia» (ИНН 7712345678) в целях подбора тура и обратной связи
+                        и подтверждаю, что ознакомлен(а) с
+                        <a href="privacy.html" target="_blank" rel="noopener">Политикой конфиденциальности</a>
+                        и
+                        <a href="consent.html" target="_blank" rel="noopener">Согласием на обработку ПД</a>.
+                    </span>
+                </label>
+
+                <label class="checkbox">
+                    <input type="checkbox" name="newsletter">
+                    <span class="checkbox__text">
+                        Я согласен(а) получать информационные и рекламные рассылки Turavia
+                        (можно отозвать в любой момент).
+                    </span>
+                </label>
+
+                <button class="button button_theme_primary button_wide" type="submit">Создать аккаунт</button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <script src="script.js" defer></script>
+
+</body>
+
+</html>
